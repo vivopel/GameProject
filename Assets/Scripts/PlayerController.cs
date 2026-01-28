@@ -47,10 +47,10 @@ public class PlayerController : MonoBehaviour {
     void Start() {
         animator = GetComponent<Animator>();
 
-        Vector2 position = transform.position;
-        position.x = 6;
-        position.y = 11;
-        transform.position = position;
+        //Vector2 position = transform.position;
+        //position.x = 6;
+        //position.y = 11;
+        //transform.position = position;
 
         speed = normalSpeed;
         speedMultiplier = normalSpeedMultiplier;
