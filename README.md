@@ -26,13 +26,13 @@ https://github.com/user-attachments/assets/1f57a567-6c61-4195-bbcb-5f4748cb7f4e
 
 4. Mechanika parowania
 
-Parowanie wymagające precyzyjnego zgrania czasowego z atakiem przeciwnika.
+- Parowanie wymagające precyzyjnego zgrania czasowego z atakiem przeciwnika.
 
-Udane parowanie powoduje ogłuszenie (stun) przeciwnika.
+- Udane parowanie powoduje ogłuszenie (stun) przeciwnika.
 
 5. Walka turowa (w trakcie realizacji)
 
-Zaimplementowanie pełnej sceny walki turowej od strony wizualnej:
+- Zaimplementowanie pełnej sceny walki turowej od strony wizualnej:
 
 - Animacje kamery,
 
