@@ -1,0 +1,329 @@
+fileFormatVersion: 2
+guid: dbba7ebdb80b59b46bd885382c458b20
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4554126242251484350
+    second: boss_faces_first_phase_0
+  - first:
+      213: -6445953605901064959
+    second: boss_faces_first_phase_1
+  - first:
+      213: 8981897451843826550
+    second: boss_faces_first_phase_2
+  - first:
+      213: 6072640377995076356
+    second: boss_faces_first_phase_3
+  - first:
+      213: 2606814181661161105
+    second: boss_faces_first_phase_4
+  - first:
+      213: -589769148999444059
+    second: boss_faces_first_phase_5
+  - first:
+      213: -6659047444938787156
+    second: boss_faces_first_phase_6
+  - first:
+      213: 289625154288784352
+    second: boss_faces_first_phase_7
+  - first:
+      213: 4995480259866706734
+    second: boss_faces_first_phase_8
+  - first:
+      213: 8413596489966590015
+    second: boss_faces_first_phase_9
+  - first:
+      213: -8585288160730616086
+    second: boss_faces_first_phase_10
+  - first:
+      213: -2742673282995648528
+    second: boss_faces_first_phase_11
+  - first:
+      213: -8246656914708955479
+    second: boss_faces_first_phase_12
+  - first:
+      213: 7326276983677231203
+    second: boss_faces_first_phase_13
+  - first:
+      213: -3786135879815647553
+    second: boss_faces_first_phase_14
+  - first:
+      213: -6072111570454002537
+    second: boss_faces_first_phase_15
+  - first:
+      213: -3206208706242866713
+    second: boss_faces_first_phase_16
+  - first:
+      213: -5887674563347294723
+    second: boss_faces_first_phase_17
+  - first:
+      213: 2584533660873285754
+    second: boss_faces_first_phase_18
+  - first:
+      213: -4563063461558404830
+    second: boss_faces_first_phase_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: boss_faces_first_phase_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebc2fa340b1833f30800000000000000
+      internalID: 4554126242251484350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_faces_first_phase_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1056e99f85f5b86a0800000000000000
+      internalID: -6445953605901064959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_faces_first_phase_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6733322f42c16ac70800000000000000
+      internalID: 8981897451843826550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_faces_first_phase_3
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4032713ef3a564450800000000000000
+      internalID: 6072640377995076356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_faces_first_phase_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1963d5dcfa34d2420800000000000000
+      internalID: 2606814181661161105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_faces_first_phase_5
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a9576e6518b0d7f0800000000000000
+      internalID: -589769148999444059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 634a450736e19f44e847b8292d54ae6d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      boss_faces_first_phase_0: 4554126242251484350
+      boss_faces_first_phase_1: -6445953605901064959
+      boss_faces_first_phase_10: -8585288160730616086
+      boss_faces_first_phase_11: -2742673282995648528
+      boss_faces_first_phase_12: -8246656914708955479
+      boss_faces_first_phase_13: 7326276983677231203
+      boss_faces_first_phase_14: -3786135879815647553
+      boss_faces_first_phase_15: -6072111570454002537
+      boss_faces_first_phase_16: -3206208706242866713
+      boss_faces_first_phase_17: -5887674563347294723
+      boss_faces_first_phase_18: 2584533660873285754
+      boss_faces_first_phase_19: -4563063461558404830
+      boss_faces_first_phase_2: 8981897451843826550
+      boss_faces_first_phase_3: 6072640377995076356
+      boss_faces_first_phase_4: 2606814181661161105
+      boss_faces_first_phase_5: -589769148999444059
+      boss_faces_first_phase_6: -6659047444938787156
+      boss_faces_first_phase_7: 289625154288784352
+      boss_faces_first_phase_8: 4995480259866706734
+      boss_faces_first_phase_9: 8413596489966590015
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
