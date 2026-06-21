@@ -5,8 +5,15 @@ public class PlayerBattle : EntityBattleController
 {
     protected override float MAX_HP => 60.0f;
     [SerializeField] private BossController boss;
+
+    [SerializeField] private int maxPotions = 2;
+    [SerializeField] private float potionHealAmount = 15.0f;
+
+    private int potionsLeft;
+
     protected override void Start() {
         base.Start();
+        potionsLeft = maxPotions;
     }
 
     void Update() {
@@ -26,6 +33,27 @@ public class PlayerBattle : EntityBattleController
 
         TextMeshProUGUI t = value_display.GetComponentInChildren<TextMeshProUGUI>();
         t.SetText(current_hp + "hp");
+    }
+
+    public void UsePotion() {
+        if (potionsLeft <= 0) {
+            print("No potions left");
+            return;
+        }
+
+        if (current_hp >= MAX_HP) {
+            print("HP is already full");
+            return;
+        }
+
+        potionsLeft--;
+        SetHp(potionHealAmount);
+
+        print("Potion used. Potions left: " + potionsLeft);
+    }
+
+    public int GetPotionsLeft() {
+        return potionsLeft;
     }
 
     protected override void OnTurnChange(TurnState state, TurnState last_state) {

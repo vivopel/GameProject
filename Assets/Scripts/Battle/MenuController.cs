@@ -44,7 +44,7 @@ public class ArcMenu : MonoBehaviour
         space_action.Enable();
 
         AddButton("Atak");
-        AddButton("Przedmioty");
+        AddButton("Przedmioty: " + player.GetPotionsLeft());
         AddButton("Ucieczka");
 
         active_buttons[current_button_index].GetComponentInChildren<SpriteRenderer>().sprite = sprites[3];
@@ -81,6 +81,16 @@ public class ArcMenu : MonoBehaviour
         t.color = new(0.13333f, 0.12549f, 0.20392f);
         SetButton(button, player_pivot.position, min_scale);
         active_buttons.Add(button);
+    }
+
+    void UpdateItemsButtonText() {
+        foreach (GameObject b in active_buttons) {
+            TextMeshPro text = b.GetComponentInChildren<TextMeshPro>();
+
+            if (text.text.StartsWith("Przedmioty")) {
+                text.SetText("Przedmioty: " + player.GetPotionsLeft());
+            }
+        }
     }
 
     void SetButton(GameObject b, Vector3 position, float scale) {
@@ -146,8 +156,9 @@ public class ArcMenu : MonoBehaviour
         if (current_button.GetComponentInChildren<TextMeshPro>().text == "Atak") {
             player.Attack(3, 1.0f);
         }
-        if (current_button.GetComponentInChildren<TextMeshPro>().text == "Przedmioty") {
-            player.SetHp(2.0f);
+        if (current_button.GetComponentInChildren<TextMeshPro>().text.StartsWith("Przedmioty")) {
+            player.UsePotion();
+            UpdateItemsButtonText();
         }
         tm.NextTurn();
     }
