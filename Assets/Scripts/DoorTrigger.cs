@@ -1,15 +1,17 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class DoorInteract : MonoBehaviour
+public class DoorSwitch : MonoBehaviour
 {
-    private bool playerInRange = false;
+    public string sceneName;
+
+    private bool playerInRange;
 
     void Update()
     {
         if (playerInRange && Input.GetKeyDown(KeyCode.E))
         {
-            Debug.Log("Drzwi otwarte (udajemy)");
-            gameObject.SetActive(false);
+            SceneManager.LoadScene(sceneName);
         }
     }
 
